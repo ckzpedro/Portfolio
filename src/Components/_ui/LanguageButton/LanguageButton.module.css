@@ -1,0 +1,13 @@
+.placeholder {
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 3rem 1.5rem 3rem 1.5rem;
+    background-color: #DED0B3;
+    font-size: 2.4rem;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.placeholder:hover {
+    background-color: #beb299;
+}
