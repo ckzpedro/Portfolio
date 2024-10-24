@@ -1,0 +1,18 @@
+.placeholder {
+    width: 33.9rem;
+    height: 34rem;
+}
+
+.placeholder h1 {
+    font-size: 3.6rem;
+    margin-top: 1.9rem;
+    margin-left: 0.8rem;
+}
+
+.placeholder p {
+    margin-top: 1.9rem;
+    font-size: 2rem;
+    width: 38rem;
+    margin-left: 0.8rem;
+    text-align: left;
+}

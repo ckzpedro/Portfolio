@@ -1,0 +1,22 @@
+.placeholder {
+    margin-top: 8rem;
+    margin-left: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.placeholder h1 {
+    display: flex;
+    font-size: 4rem;
+    gap: 0.8rem;
+}
+
+.infos p {
+    font-size: 3.2rem;
+    height: 11.7rem;
+    width: 88.8rem;
+    text-align: justify;
+    margin-left: 4.8rem;
+    margin-top: 1.6rem;
+}

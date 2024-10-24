@@ -1,11 +1,10 @@
 .placeholder {
-    width: 10rem;
-    height: 4.5rem;
+    width: 8rem;
+    height: 3.5rem;
     border-radius: 3rem 1.5rem 3rem 1.5rem;
-    background-color: #DED0B3;
-    font-size: 2.4rem;
-    font-weight: bold;
+    background-color: #e9e2d5;
     transition: .4s;
+    font-weight: bold
 }
 
 .placeholder:hover {

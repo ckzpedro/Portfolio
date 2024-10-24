@@ -1,0 +1,46 @@
+.placeholder {
+    height: 114rem;
+    background-color: #FFF9ED;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20.1rem;
+    border-bottom-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+}
+
+.infos {
+    margin-top: 38rem;
+}
+
+.infos h1 {
+    font-size: 6.4rem;
+}
+
+.infos h2 {
+    font-size: 3rem;
+}
+
+.infos p {
+    font-size: 3rem;
+}
+
+.imageplaceholder {
+    background-color: #DED0B3;
+    margin-top: 17.6rem;
+    width: 50rem;
+    height: 65rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 30rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.image {
+    margin-top: 5.7rem;
+    margin-left: 3.4rem;
+
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 25rem;
+    border-bottom-left-radius: 2.5rem;
+}

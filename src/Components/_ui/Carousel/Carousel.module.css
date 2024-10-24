@@ -1,0 +1,6 @@
+.placeholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.7rem;
+    gap: 3.2rem;
+}

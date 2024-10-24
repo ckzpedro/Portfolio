@@ -4,7 +4,6 @@ import styles from "./LanguageButton.module.css"
 
 import Link from "next/link"
 
-
 interface TextProps {
     text: string
     action: any
