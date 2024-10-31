@@ -1,22 +1,22 @@
 .placeholder {
-    height: 9.6rem;
+    height: 9.6vh;
     width: 100%;
     display: flex;
-    gap: 17.6rem;
+    gap: 10%;
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(100px);
     position: fixed;
-    z-index: 1000
+    z-index: 1000;
 }
 
 .buttons {
     display: flex;
-    gap: 3.2rem;
+    gap: 3.2vh;
 }
 
 .nav_item {
-    padding: 10px;
+    padding: 10vh;
     cursor: pointer;
 }
 
@@ -28,6 +28,16 @@
 .lista {
     display: flex;
     cursor: pointer;
-    gap: 3rem;
-    font-size: 2.4rem;
+    gap: 3vh;
+    font-size: 2.4vh;
 }
+
+@media (max-width:760px) {
+    .placeholder {
+        gap: 0;
+        justify-content: flex-start;
+    }
+}
+
+
+@media (max-width:710px) {}

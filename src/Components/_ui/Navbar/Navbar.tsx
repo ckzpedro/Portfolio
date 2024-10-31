@@ -47,9 +47,9 @@ export default function Navbar() {
 
     return (
         <div className={styles.placeholder}>
-
-            {pathname === '/' ? (navptbr) : (naveng)}
-
+            <div>
+                {pathname === '/' ? (navptbr) : (naveng)}
+            </div>
             <div className={styles.buttons}>
                 <LanguageButton action='/' text="Pt-br" />
                 <LanguageButton action='/eng' text="Eng" />

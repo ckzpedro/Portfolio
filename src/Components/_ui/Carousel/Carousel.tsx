@@ -1,11 +1,13 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
-import { FaFigma, FaHtml5, FaCss3, FaJs, FaReact, FaGitAlt, FaGithub, FaDatabase, FaNodeJs } from 'react-icons/fa';
+import { FaFigma, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaNodeJs } from 'react-icons/fa';
+import { SiTypescript, SiFlutter, SiVite } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
+import { GrMysql } from "react-icons/gr";
 import styles from './Carousel.module.css'; // Importa o CSS
 
 
-const icons = [FaFigma, FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaDatabase];
+const icons = [FaFigma, FaHtml5, FaCss3Alt, FaJs, SiTypescript, FaReact, SiVite, RiNextjsLine, SiFlutter, FaNodeJs, FaGitAlt, FaGithub, GrMysql];
 
 
 export default function Carousel() {
@@ -16,7 +18,7 @@ export default function Carousel() {
                     key={index}
                     className="carousel-item"
                 >
-                    <Icon size={70} color="#403D39" /> {/* Cor e tamanho dos ícones */}
+                    <Icon size={70} color="#403D39" />
                 </div>
             ))}
         </div>
